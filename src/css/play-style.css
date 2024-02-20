@@ -64,7 +64,6 @@ html, body {
     transform-origin: 0% 50%;
     transform: rotateY(120deg);
     margin-bottom: 1px;
-    background: rgba(0, 0, 0, 0.8);
     padding: 12px 15px 12px 20px;
   }
   .info .about {
