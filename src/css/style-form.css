@@ -26,6 +26,7 @@
 }
 
 .logo {
+  margin-right: 5%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -34,7 +35,7 @@
 }
 
 img {
-  filter: contrast(0) saturate(0);
+  filter: contrast(0) saturate(0) drop-shadow(rgba(0,0,0,0.4) 1px 1px);
   z-index: 2;
   max-width: 150px;
   min-width: 100px;
@@ -173,4 +174,16 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px;
+  color: var(--text-clr); 
+}
+
+a:hover {
+  text-decoration: underline;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
 }
