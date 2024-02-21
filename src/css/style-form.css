@@ -25,15 +25,16 @@
   width: min(420px, 95%);
 }
 
-.logo{
+.logo {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   max-width: 200px;
 }
-img{
-  filter:contrast(0) saturate(0);
+
+img {
+  filter: contrast(0) saturate(0);
   z-index: 2;
   max-width: 150px;
   min-width: 100px;
@@ -48,7 +49,7 @@ h1 {
   text-align: center;
   padding: 20px 40px 0;
   text-wrap: nowrap;
-  
+
 }
 
 /* FORM  */
