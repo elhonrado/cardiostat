@@ -18,22 +18,25 @@
   background: rgba(200, 200, 224, 0.1);
   border: 1px solid --error-clr;
   box-shadow: 0 4px 30px rgba(14, 14, 14, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 5px;
   overflow: hidden;
   width: min(420px, 95%);
+  z-index: 2;
 }
 
-.logo{
+.logo {
+  margin-right: 5%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   max-width: 200px;
 }
-img{
-  filter:contrast(0) saturate(0);
+
+img {
+  filter: contrast(0) saturate(0) drop-shadow(rgba(0,0,0,0.4) 1px 1px);
   z-index: 2;
   max-width: 150px;
   min-width: 100px;
@@ -48,7 +51,7 @@ h1 {
   text-align: center;
   padding: 20px 40px 0;
   text-wrap: nowrap;
-  
+
 }
 
 /* FORM  */
@@ -172,4 +175,16 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  text-shadow: rgba(0, 0, 0, 0.4) 1px 1px;
+  color: var(--text-clr); 
+}
+
+a:hover {
+  text-decoration: underline;
+  text-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
 }
