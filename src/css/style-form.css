@@ -18,11 +18,12 @@
   background: rgba(200, 200, 224, 0.1);
   border: 1px solid --error-clr;
   box-shadow: 0 4px 30px rgba(14, 14, 14, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 5px;
   overflow: hidden;
   width: min(420px, 95%);
+  z-index: 2;
 }
 
 .logo {
