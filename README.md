@@ -29,7 +29,7 @@ This repository serves as the central hub for the development of [Project Name].
 
 ### Back End Instructions
 
-- Instructions for the back end are forthcoming.
+- Instructions for the back end are forthcoming. Indeed
 
 ### Abbreviations
 
